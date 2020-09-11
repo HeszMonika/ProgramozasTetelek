@@ -12,5 +12,10 @@
 
 ## Összegzés
 - Osszegzes() metódus létrehozása
-- Összegzés tétele a tömbbön
-- Eredmény kiírása a console-ra
+  - Összegzés tétele a tömbbön
+  - Eredmény kiírása a console-ra
+
+## Megszámlálás
+- Megszamlalas() metódus létrehozása
+  - Számoljuk meg, hány 3-mal osztható elem van a tömbben
+  - Eredmény kiírása a console-ra
