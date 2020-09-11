@@ -8,4 +8,9 @@
 - TombKiiras() metódus létrehozása
   - nem ad vissza értéket
   - nincs paramétere
-  - a tömb elemeit vesszõvel elválasztva egy sorban a consol-ra írja
+  - a tömb elemeit vesszõvel elválasztva egy sorban a console-ra írja
+
+## Összegzés
+- Osszegzes() metódus létrehozása
+- Összegzés tétele a tömbbön
+- Eredmény kiírása a console-ra

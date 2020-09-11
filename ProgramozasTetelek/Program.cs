@@ -18,9 +18,20 @@ namespace ProgramozasTetelek
             }
         }
 
+        static void Osszegzes()
+        {
+            int ossz = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                ossz = ossz + tomb[i];
+            }
+            Console.WriteLine("\n{0} ", ossz);
+        }
+
         static void Main(string[] args)
         {
             TombKiiras();
+            Osszegzes();
 
             Console.ReadKey();
         }
