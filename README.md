@@ -29,3 +29,8 @@
 - Kivalasztas() metódus létrehozása
   - Írjuk ki, hogy hányadik a tömbben az 50
   - Eredmény kiírása a console-ra
+
+## Keresés (lineáris)
+- Kereses() metódus létrehozása
+  - Keressük ki, hogy van-e a tömbben 50 és, ha van, azt is, hogy hányadik
+  - Eredmény kiírása a console-ra
