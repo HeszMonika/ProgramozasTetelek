@@ -24,3 +24,8 @@
 - Eldontes() metódus létrehozása
   - Nézzük meg, hogy van-e a tömbben 69 az elemek között
   - Eredmény kiírása a console-ra
+
+## Kiválasztás
+- Kivalasztas() metódus létrehozása
+  - Írjuk ki, hogy hányadik a tömbben az 50
+  - Eredmény kiírása a console-ra

@@ -58,12 +58,23 @@ namespace ProgramozasTetelek
             }
         }
 
+        static void Kivalasztas()
+        {
+            int i = 0;
+            while (tomb[i] != 50)
+            {
+                i++;
+            }
+            Console.WriteLine("A {0}. indexű helyen van.", i);
+        }
+
         static void Main(string[] args)
         {
             TombKiiras();
             Osszegzes();
             Megszamlalas();
             Eldontes();
+            Kivalasztas();
 
             Console.ReadKey();
         }
