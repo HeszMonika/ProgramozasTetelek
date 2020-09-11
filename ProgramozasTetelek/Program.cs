@@ -85,6 +85,32 @@ namespace ProgramozasTetelek
             }
         }
 
+        static void Maximum()
+        {
+            int max = 1;
+            for (int i = 1; i < tomb.Length; i++)
+            {
+                if (tomb[i] > max)
+                {
+                    max = tomb[i];
+                }
+            }
+            Console.WriteLine("A tömb legnagyobb eleme a(z) {0}.", max);
+        }
+
+        static void Minimum()
+        {
+            int min = 1;
+            for (int i = 1; i < tomb.Length; i++)
+            {
+                if (tomb[i] < min)
+                {
+                    min = tomb[i];
+                }
+            }
+            Console.WriteLine("A tömb legkisebb eleme a(z) {0}.", min);
+        }
+
         static void Main(string[] args)
         {
             TombKiiras();
@@ -93,6 +119,8 @@ namespace ProgramozasTetelek
             Eldontes();
             Kivalasztas();
             Kereses();
+            Maximum();
+            Minimum();
 
             Console.ReadKey();
         }

@@ -34,3 +34,11 @@
 - Kereses() metódus létrehozása
   - Keressük ki, hogy van-e a tömbben 50 és, ha van, azt is, hogy hányadik
   - Eredmény kiírása a console-ra
+ 
+## Maximum keresés
+- Maximum() metódus létrehozása
+  - Írjuk ki a legnagyobb elemet a console-ra
+
+## Minimum keresés
+- Minimum() metódus létrehozása
+  - Írjuk ki a legkisebb elemet a console-ra
