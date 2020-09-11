@@ -19,3 +19,8 @@
 - Megszamlalas() metódus létrehozása
   - Számoljuk meg, hány 3-mal osztható elem van a tömbben
   - Eredmény kiírása a console-ra
+
+## Eldöntés
+- Eldontes() metódus létrehozása
+  - Nézzük meg, hogy van-e a tömbben 69 az elemek között
+  - Eredmény kiírása a console-ra

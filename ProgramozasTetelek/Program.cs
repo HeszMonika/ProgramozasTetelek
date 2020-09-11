@@ -41,11 +41,29 @@ namespace ProgramozasTetelek
             Console.WriteLine("{0} darab 3-mal osztható elem van.", db);
         }
 
+        static void Eldontes()
+        {
+            int i = 0;
+            while (i < tomb.Length && tomb[i] != 69)
+            {
+                i++;
+            }
+            if(i < tomb.Length)
+            {
+                Console.WriteLine("Van 69 az elemek között.");
+            }
+            else
+            {
+                Console.WriteLine("Nincs 69 az elemek között.");
+            }
+        }
+
         static void Main(string[] args)
         {
             TombKiiras();
             Osszegzes();
             Megszamlalas();
+            Eldontes();
 
             Console.ReadKey();
         }
